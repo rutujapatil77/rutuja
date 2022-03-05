@@ -1,0 +1,64 @@
+$primary-color:#4e80f6;
+$secondary-color:#006faf;
+$button:coral;
+$dark:#252525;
+$light:white;
+$radius:6px;
+// font family poppins
+$font:'Poppins', sans-serif;
+nav 
+{
+    background-color:$primary-color!important;
+    color:white!important;
+    .nav-link 
+    {
+        color:white;
+    }
+    
+}
+.flex-box 
+{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+}
+body 
+{
+    background-color: $light;
+    font-family: $font;
+    .skill
+    {
+        height:100px;
+    }
+    .icon 
+    {
+        font-size:40px;
+        color:orangered;
+    }
+    .css 
+    {
+        color:#327aeef8;
+    }
+    .js 
+    {
+        color:#fff176;
+    }
+    .bootstrap
+    {
+        color:#a5498e;
+    }
+}
+.skill-single
+    {
+      
+        border-radius:$radius;
+    }   
+.banner
+{
+    width:100%;
+    height:80vh!important;
+}
+.footer
+{
+    background-color:$primary-color!important;
+}
